@@ -1,0 +1,49 @@
+@import url("pro.css");
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration:none;
+}
+ul{
+  list-style:none;
+}
+body{
+  font:16px/1.5 Arial;
+  background-color:#FFF2E3;
+  text-align:center;
+}
+.title{
+  color:#87968E;
+  margin-top:30px;
+}
+.intro{
+   color:#B7BBB0;
+  margin-top:15px;
+}
+.tab-ct>li{
+    display: inline-block;
+    margin:20px 4px;
+}
+.btn{
+  padding:5px 6px;
+  color:white;
+  background-color: #72B890;
+  border-radius:3px; 
+}
+.btn:hover{
+  opacity:0.5;
+}
+.btn:active{
+  opacity:1;
+}
+.image{
+  margin: 30px;
+}
+.footer{
+  margin: 30px;
+}
+.author{
+  color: #72B890;
+}

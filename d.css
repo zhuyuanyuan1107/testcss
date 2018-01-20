@@ -19,9 +19,9 @@
 .tri-3{
   height:0;
   width:0;
-  border-top:50px solid transparent;
-  border-left:50px solid yellow;
-  border-bottom:50px solid yellow;
-  border-right:50px solid rgba(0,0,0,0);
-  
+  border-top:25px solid transparent;
+  border-left:25px solid yellow;
+  border-bottom:25px solid yellow;
+  border-right:25px solid rgba(0,0,0,0);
+  transform:rotate(90deg);
 }

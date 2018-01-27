@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="login">
+	<form action="/getInfo" method="get">
+	<div class="username">
+		<label >姓名：</label>
+	<input id="username" type="username" placeholder="用户名" name="username">
+	</div class="password">
+	<label for="password">密码：</label>
+	<input id="password" type="password" name="password"></div>
+	<div class="sex">
+		<label >性别：</label>
+		<input type="radio" name="sex" value="男">男
+		<input type="radio" name="sex" value="女">女
+	</div>
+	<div class="sex1">
+		<label >取向：</label>
+        <input type="radio" name="sex1" value="男">男
+		<input type="radio" name="sex1" value="女">女
+	</div>
+	<div class="checkbox">
+		<label>爱好：</label>
+		<input type="checkbox" name="hobby" value="dota">dota
+		<input type="checkbox" name="hobby" value="travel">旅游
+		<input type="checkbox" name="hobby" value="pet">宠物
+	</div>
+	<div class="textarea">
+		<label >评论：</label>
+		<textarea name="article">
+			ddd
+		</textarea>
+	</div>
+	<div class="select">
+		<label>我的car：</label>
+		<select name="car">
+		<option value="sabo">萨博</option>
+		<option value="bicycle">自行车</option>
+		</select>
+	</div>
+	
+  <form action="/getInfo" method="get">
+
+      <button>提交😁</button>
+  </form>
+  </div>
+</body>
+</html>
